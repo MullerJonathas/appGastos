@@ -2,7 +2,7 @@ import sqlite3
 from datetime import datetime
 import flet as ft
 
-DB_NAME = "gastos_app.db"
+
 
 
 def inicializar_bd():
