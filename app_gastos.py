@@ -2,8 +2,8 @@ import sqlite3
 from datetime import datetime
 import flet as ft
 
-
-
+#def base dados
+DB_NAME = "gastos_app.db"
 
 def inicializar_bd():
     conn = sqlite3.connect(DB_NAME)
